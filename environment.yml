@@ -3,14 +3,15 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - ipywidgets
   - ipykernel
   - pip
   - ultralytics
   - pillow
   - python-dotenv
   - opencv
+  - jupyterlab_widgets
+  - voila
+  - ipywidgets
 
   - pip:
-    - voila==0.5.0
-    - voila-topbar==0.1.1
+    - voila-topbar

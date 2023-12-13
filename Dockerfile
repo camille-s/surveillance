@@ -17,4 +17,5 @@ RUN mamba env create --prefix $HOME/env  -f ./environment.yml
 EXPOSE 7860
 WORKDIR $HOME/app
 
-CMD mamba run -p $HOME/env --no-capture-output voila --no-browser notebooks/
+CMD mamba run -p $HOME/env --no-capture-output voila --no-browser --port=7860 notebooks/app.ipynb
+# CMD python3 -m voila --no-browser notebooks/ --port=7860

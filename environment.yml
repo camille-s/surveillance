@@ -2,11 +2,10 @@ name: voila
 channels:
   - conda-forge
 dependencies:
-  - python=3.11.5
   - ipywidgets
   - ipykernel
   - pip
-  - ultralytics=8.0.186
+  - ultralytics
   - pillow
   - python-dotenv
   - opencv

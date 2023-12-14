@@ -5,7 +5,7 @@ dependencies:
   - python
   - ipykernel
   - pip
-  - ultralytics
+  - ultralytics=8.0.186
   - pillow
   - python-dotenv
   - opencv
